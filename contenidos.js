@@ -149,7 +149,7 @@ const mediaData = [
         tipo: 'foto',
         titulo: 'Mi casa es un espacio seguro y estas invitado',
         autor: 'APUA Producciones',
-        url: 'imagenes/maloca_tradicional.jpeg',
+        url: 'imagenes/Maloca_tradicional.jpeg',
         descripcion: 'En la Casa ancestral nuestros abuelos nos enseñan la sabiduría de la selva y la vida.',
         fecha: '2017'
     },
