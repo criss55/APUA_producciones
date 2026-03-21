@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Comunitaria | APUA Producciones</title>
+    <!-- Use existing styles and append new ones -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contenidos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="imagenes/APUA_Logo_Morado.png" alt="logo" class="logo-img">APUA Producciones
+        </div>
+        <div class="nav-links">
+            <a href="index.html#inicio">Inicio</a>
+            <a href="index.html#proximas">Cartelera</a>
+            <a href="index.html#nosotros">Proyecto</a>
+            <a href="contenidos.html" class="active" style="color: var(--primary); font-weight: 800;">Contenidos</a>
+            <a href="index.html#contacto" class="btn-primary">Únete</a>
+        </div>
+        <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <header class="hero-small">
+        <div class="hero-small-overlay"></div>
+        <div class="hero-small-content">
+            <h1>Galería <span class="highlight">Comunitaria</span></h1>
+            <p>Explora las historias, imágenes y sonidos creados por y para nuestra comunidad étnica.</p>
+        </div>
+    </header>
+
+    <section id="galeria" class="gallery-section">
+        <div class="filters-container">
+            <button class="filter-btn active" data-filter="todos">Todos</button>
+            <button class="filter-btn" data-filter="video"><i class="fa-solid fa-video"></i> Video</button>
+            <button class="filter-btn" data-filter="foto"><i class="fa-solid fa-camera"></i> Fotografía</button>
+            <button class="filter-btn" data-filter="audio"><i class="fa-solid fa-headphones"></i> Audio</button>
+        </div>
+
+        <div class="gallery-grid" id="gallery-grid">
+            <!-- Content will be dynamically inserted here by contenidos.js -->
+        </div>
+    </section>
+
+    <!-- Lightbox for Photos -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-close"><i class="fa-solid fa-xmark"></i></div>
+        <img src="" alt="Vista ampliada" class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="imagenes/APUA_Logo_Morado.png" alt="logo" class="logo-img">Mi historia cuenta
+            </div>
+            <p>&copy; 2026 APUA Producciones. Hecho con <i class="fa-solid fa-heart" style="color: #e50914;"></i> en el territorio.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="contenidos.js"></script>
+</body>
+</html>

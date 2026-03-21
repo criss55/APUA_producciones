@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APUA | Cine Comunitario</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="imagenes/APUA_Logo_Morado.png" alt="logo" class="logo-img">APUA Producciones
+        </div>
+        <div class="nav-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#proximas">Cartelera</a>
+            <a href="#nosotros">Proyecto</a>
+            <a href="contenidos.html">Contenidos</a>
+            <a href="#contacto" class="btn-primary">Únete</a>
+        </div>
+        <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="badge">Lo que estamos dearrollando en este momento </span>
+            <h1>El cine es <span>nuestra</span> historia de vida</h1>
+            <p>Un espacio donde la comunidad se encuentra, comparte y crea a través del séptimo arte. Un lugar donde las comunidades étnicas narran sus historias, fortalecen su identidad y dan vida a sus territorios mediante el cine y el desarrollo de medios gráficos y audiovisuales. Vive la magia de nuestras proyecciones gratuitas bajo las estrellas y sé parte de procesos creativos que hacen visible tu voz.</p>
+            <div class="hero-buttons">
+                <a href="#proximas" class="btn-primary"><i class="fa-solid fa-ticket"></i> Ver Cartelera</a>
+                <a href="#nosotros" class="btn-secondary"><i class="fa-solid fa-play"></i> Conoce Más</a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <section id="proximas" class="screenings">
+        <div class="section-header">
+            <h2>Próximas <span class="highlight">Proyecciones</span></h2>
+            <p>Acompáñanos este fin de semana en tú barrio.</p>
+        </div>
+        <div class="cards-container">
+            <div class="movie-card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')">
+                    <div class="card-date">
+                        <span class="day">15</span>
+                        <span class="month">OCT</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>Ciclo Cine al Barrio</h3>
+                    <p class="time"><i class="fa-regular fa-clock"></i> 19:30 hrs</p>
+                    <p class="location"><i class="fa-solid fa-location-dot"></i> Caseta Comunal, Maloca o Casa Ancestral</p>
+                    <p class="desc">Cine para toda la familia. Entrada libre.</p>
+                </div>
+            </div>
+            <div class="movie-card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')">
+                    <div class="card-date">
+                        <span class="day">22</span>
+                        <span class="month">OCT</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>Documentales y Cortos Locales</h3>
+                    <p class="time"><i class="fa-regular fa-clock"></i> 20:00 hrs</p>
+                    <p class="location"><i class="fa-solid fa-location-dot"></i> Caseta Comunal, Maloca o Casa Ancestral</p>
+                    <p class="desc">Muestra de historias creadas por los jóvenes y adultos de la región.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="about">
+        <div class="about-grid">
+            <div class="about-text">
+                <h2>Cine hecho por y para la <span class="highlight">Comunidad</span></h2>
+                <p><strong>APUA producciones</strong> nace con la convicción de que el cine transforma vidas y fortalece comunidades. Más que proyectar películas, impulsamos procesos creativos, talleres y espacios de diálogo que tejen redes de apoyo y permiten a las comunidades, especialmente étnicas, narrar sus propias historias a través de medios gráficos y audiovisuales.</p>
+                <ul class="features">
+                    <li><i class="fa-solid fa-check"></i> Proyecciones gratuitas al aire libre</li>
+                    <li><i class="fa-solid fa-check"></i> Talleres de apreciación y creación audiovisual</li>
+                    <li><i class="fa-solid fa-check"></i> Cineforo y debates comunitarios</li>
+                </ul>
+                <a href="contenidos.html" class="btn-secondary" style="margin-top: 2rem;"><i class="fa-solid fa-images"></i> Ver Galería Comunitaria</a>
+            </div>
+            <div class="about-image">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Comunidad viendo cine">
+                    <div class="experience-badge">
+                        <span class="num">5+</span>
+                        <span class="text">Años de<br>Cine</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="cta-section">
+        <div class="cta-content">
+            <h2>¿Quieres ser parte de la magia?</h2>
+            <p>Buscamos voluntarios, creadores e ideas para seguir creciendo.</p>
+            <form class="contact-form" id="form-unirse">
+                <input type="text" id="input-nombre" placeholder="Tu Nombre" required>
+                <input type="email" id="input-correo" placeholder="Tu Correo" required>
+                <button type="submit" class="btn-primary" id="btn-unirse">Quiero Unirme <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="imagenes/APUA_Logo_Morado.png" alt="logo" class="logo-img">Mi historia cuenta
+            </div>
+            <p>&copy; 2026 Proyecto Cine Comunitario. Hecho con <i class="fa-solid fa-heart" style="color: #e50914;"></i> en el barrio.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
